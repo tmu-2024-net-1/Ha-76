@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('scroll', function () {
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'instant' });
     const zones = document.querySelectorAll('.zone');
     zones.forEach(zone => {
