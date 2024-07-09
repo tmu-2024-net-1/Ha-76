@@ -1,5 +1,5 @@
-document.addEventListener('scroll', function () {
-    window.scrollTo(0, document.body.scrollHeight);
+document.addEventListener('DOMContentLoaded', function () {
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'instant' });
     const zones = document.querySelectorAll('.zone');
     zones.forEach(zone => {
       const rect = zone.getBoundingClientRect();
