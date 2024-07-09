@@ -5,13 +5,82 @@
    <style>
     body{
       margin:0;
-      height:100vh;
+      font-family: Arial, sans-serif;
+      height: 500vh; /* サイト全体の高さを調整 */
       background:linear-gradient(to top, #000080, #87CEEB);
+      scroll-behavior: smooth;
     }
+    .zone {
+      height: 100vh; /* 各ゾーンの高さを100vhに設定 */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .fish {
+      font-size: 2em;
+      color: white;
+      margin: 10px 0;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+
+    .zone:target .fish {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    header, main {
+      display: none;
+    }
+
     </style>
   </head>
 
   <body>
+    <div id="hadal" class="zone">
+        <div class="fish">唐人</div>
+        <div class="fish">草魚</div>
+        <div class="fish">海百合</div>
+        <div class="fish">底坊主</div>
+    </div>
+    <div id="abyssal" class="zone">
+        <div class="fish">千手海鼠</div>
+        <div class="fish">鬼金目</div>
+        <div class="fish">三脚魚</div>
+    </div>
+    <div id="bathyal" class="zone">
+      <div class="fish">入道鮖</div>
+      <div class="fish">巨鮃</div>
+      <div class="fish">一角</div>
+      <div class="fish">具足虫</div>
+      <div class="fish">鬼坊主鱚</div>
+      <div class="fish">蝙蝠蛸</div>
+        <div class="fish">赤坊鯨</div>
+        <div class="fish">袋鰻</div>
+        <div class="fish">達磨鮫</div>
+        <div class="fish">蓬莱鱛</div>
+        <div class="fish">羅鱶</div>
+    </div>
+    <div id="mesopelagic" class="zone">
+      <div class="fish">鯥</div>
+      <div class="fish">目梶木</div>
+      <div class="fish">翻車魚</div>
+      <div class="fish">鱈場蟹</div>
+      <div class="fish">鱈</div>
+      <div class="fish">鮟鱇</div>
+  </div>
+  <div id="epipelagic" class="zone">
+    <div class="fish">鰈</div>
+    <div class="fish">鮃</div>
+    <div class="fish">鯖</div>
+    <div class="fish">魳</div>
+    <div class="fish">鯛</div>
+</div>
+
     <header>
     </header>
     <main>

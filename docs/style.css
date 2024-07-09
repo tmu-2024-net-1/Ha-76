@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 500vh; /* サイト全体の高さを調整 */
+    background: linear-gradient(to top, #000080, #87CEEB);
+    scroll-behavior: smooth;
+  }
+  
+  .zone {
+    height: 100vh; /* 各ゾーンの高さを100vhに設定 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .fish {
+    font-size: 2em;
+    color: white;
+    margin: 10px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .zone:target .fish {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  header, main {
+    display: none;
+  }
+  
