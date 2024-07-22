@@ -1,0 +1,170 @@
+[
+    {
+        "name": "鰈",
+        "zone": "epipelagic",
+        "animation": "flutter",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "鮃",
+        "zone": "epipelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "魳",
+        "zone": "epipelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "鯖",
+        "zone": "epipelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "鯛",
+        "zone": "epipelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "鯥",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "目梶木",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "fast"
+    },
+    {
+        "name": "翻車魚",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "slow"
+    },
+    {
+        "name": "鱈場蟹",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "walk"
+    },
+    {
+        "name": "鱈",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "鮟鱇",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "slow"
+    },
+    {
+        "name": "入道鮖",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "slow"
+    },
+    {
+        "name": "巨鮃",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "normal"
+    },
+    {
+        "name": "具足虫",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "walk"
+    },
+    {
+        "name": "蝙蝠蛸",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "flutter"
+    },
+    {
+        "name": "蓬莱鱛",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "normal"
+    },
+    {
+        "name": "羅鱶",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "normal"
+    },
+    {
+        "name": "千手海鼠",
+        "zone": "abyssal",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "walk"
+    },
+    {
+        "name": "鬼金目",
+        "zone": "abyssal",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "三脚魚",
+        "zone": "abyssal",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "normal"
+    },
+    {
+        "name": "唐人",
+        "zone": "hadal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "normal"
+    },
+    {
+        "name": "草魚",
+        "zone": "hadal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "flutter"
+    },
+    {
+        "name": "海百合",
+        "zone": "hadal",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "walk"
+    },
+    {
+        "name": "底坊主",
+        "zone": "hadal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "normal"
+    }
+]

@@ -1,53 +1,134 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    height: 100%; 
-    background: linear-gradient(to top, #000080, #87CEEB);
-    scroll-behavior: smooth;
-  }
-  
-  .zone {
-    min-height: 100vh;
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  
-  .fish {
-    font-size: 2em;
-    font-family: 'MS Mincho';
-    color: black;
-    margin: 10px 0;
-    opacity: 1;
-    transform: translateY(20px);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-  }
-  
-  .zone:target .fish {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  @keyframes swim-normal{}
-  @keyframes swim-straight{
-    0% { transform: translateX(0); }
-  100% { transform: translateX(100vw); }
-  }
-  @keyframes walk{
-    0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(50vw); }
-  }
-  .fish-straight {
-    animation: swim-straight 5s linear infinite;
-  }
-  
-  .fish-walk {
-    animation: walk 10s linear infinite;
-  }
-  header, main {
-    display: none;
-  }
-  
+  background: linear-gradient(to bottom, #a3d7ff, #001f3f) no-repeat;
+  background-size: cover;
+  color: #000000;
+  font-family: 'Noto Serif JP', serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.zone {
+  width: 100%;
+  position: relative;
+}
+
+#epipelagic { height: 100vh; }
+#mesopelagic { height: 400vh; }
+#bathyal { height: 1500vh; }
+#abyssal { height: 1000vh; }
+#hadal { height: 2500vh; }
+
+.text {
+  font-size: 2em;
+  position: absolute;
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  transform-origin: center; /* Ensure zoom animation scales from the center */
+}
+
+.poem {
+  writing-mode: vertical-rl; /* 縦書き設定 */
+  font-family: 'MS Mincho', serif;
+  top: 0;
+  left: 0;
+  color: white; 
+  height: 100vh; /* ビューポートの高さを確保 */
+  overflow: hidden; /* はみ出た部分を隠す */
+  display: flex;
+  flex-direction: column; /* 上から下に並べる */
+  justify-content: space-between; /* 行間を均等に配置 */
+  align-items: flex-start; /* 左揃え */
+  margin: 0 auto;
+  padding: 20px; /* 外側の余白を追加 */
+}
+
+.poem-line {
+  font-size: 2em;
+  margin: 0;
+  padding: 0; /* 余白をリセット */
+  line-height: 2; /* 行間を調整 */
+  white-space: nowrap; /* Ensure text doesn't wrap */
+}
+
+/* アニメーションの定義 */
+@keyframes normalMovement {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(200px) translateY(100px); }
+  50% { transform: translateX(400px) translateY(0); }
+  75% { transform: translateX(100px) translateY(-200px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes fastMovement {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(200px) translateY(200px); }
+  50% { transform: translateX(-200px) translateY(200px); }
+  75% { transform: translateX(-200px) translateY(-200px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes flutterMovement {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(-50px) translateY(-50px); }
+  50% { transform: translateX(50px) translateY(50px); }
+  75% { transform: translateX(-50px) translateY(50px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes slowMovement {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(300px) translateY(300px); }
+  50% { transform: translateX(800px) translateY(0); }
+  75% { transform: translateX(200px) translateY(200px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes walkMovement {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(200px) translateY(0); }
+  50% { transform: translateX(400px) translateY(0); }
+  75% { transform: translateX(200px) translateY(0); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+
+
+.text.normal {
+  animation: normalMovement 6s infinite;
+}
+
+.text.fast {
+  animation: fastMovement 4s infinite;
+}
+
+.text.flutter {
+  animation: flutterMovement 3s infinite;
+}
+
+.text.slow {
+  animation: slowMovement 15s infinite;
+}
+
+.text.walk {
+  animation: walkMovement 15s infinite;
+}
+
+
+
+@keyframes bubbleMovement {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-8000vh) scale(0.5); opacity: 0; }
+}
+
+.bubble-text {
+  position: absolute;
+  font-family: 'MS Mincho', serif;
+  color: white;
+  font-size: 2em;
+  animation: bubbleMovement 100s infinite;
+}
