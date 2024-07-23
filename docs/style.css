@@ -25,7 +25,7 @@ body {
 #hadal { height: 2500vh; }
 
 .text {
-  font-size: 2em;
+  font-size: 32px;
   position: absolute;
   white-space: nowrap; /* Ensure text doesn't wrap */
   transform-origin: center; /* Ensure zoom animation scales from the center */
@@ -48,7 +48,7 @@ body {
 }
 
 .poem-line {
-  font-size: 2.5em;
+  font-size: 32px;
   margin: 0;
   padding: 0; /* 余白をリセット */
   line-height: 2; /* 行間を調整 */
@@ -129,6 +129,6 @@ body {
   position: absolute;
   font-family: 'MS Mincho', serif;
   color: white;
-  font-size: 2em;
+  font-size: 32px;
   animation: bubbleMovement 100s infinite;
 }
