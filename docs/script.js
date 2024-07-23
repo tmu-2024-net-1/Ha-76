@@ -72,6 +72,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         textElement.textContent = item.name;
 
+        textElement.dataset.read = item.read; // 読み方をデータ属性に追加
+
+        // 読み方の要素を作成
+        const readElement = document.createElement('span');
+        readElement.classList.add('read');
+        readElement.textContent = item.read;
+
+        // 名前と読み方を同じ要素に追加
+        textElement.appendChild(readElement);
+
         // ランダムな位置に配置
         const zoneElement = document.getElementById(item.zone);
         zoneElement.appendChild(textElement);

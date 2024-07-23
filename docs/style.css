@@ -172,3 +172,14 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+.text .read {
+  display: none; /* 初期状態では読み方を非表示にする */
+}
+
+
+.text:hover .read {
+  display: inline; /* ホバー時に読み方を表示する */
+}

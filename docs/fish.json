@@ -4,167 +4,191 @@
         "zone": "epipelagic",
         "animation": "flutter",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"カレイ"
     },
     {
         "name": "鮃",
         "zone": "epipelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"ヒラメ"
     },
     {
         "name": "魳",
         "zone": "epipelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"カマス"
     },
     {
         "name": "鯖",
         "zone": "epipelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"サバ"
     },
     {
         "name": "鯛",
         "zone": "epipelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"タイ"
     },
     {
         "name": "鯥",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"ムツ"
     },
     {
         "name": "目梶木",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "large",
-        "movement": "fast"
+        "movement": "fast",
+        "read":"メカジキ"
     },
     {
         "name": "翻車魚",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "large",
-        "movement": "slow"
+        "movement": "slow",
+        "read":"マンボウ"
     },
     {
         "name": "鱈場蟹",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "walk"
+        "movement": "walk",
+        "read":"タラバガニ"
     },
     {
         "name": "鱈",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"タラ"
     },
     {
         "name": "鮟鱇",
         "zone": "mesopelagic",
         "animation": "zoom",
         "size": "large",
-        "movement": "slow"
+        "movement": "slow",
+        "read":"アンコウ"
     },
     {
         "name": "入道鮖",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "medium",
-        "movement": "slow"
+        "movement": "slow",
+        "read":"ニュウドウカジカ"
     },
     {
         "name": "巨鮃",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "large",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"オソ"
     },
     {
         "name": "具足虫",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "medium",
-        "movement": "walk"
+        "movement": "walk",
+        "read":"グソクムシ"
     },
     {
         "name": "蝙蝠蛸",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "small",
-        "movement": "flutter"
+        "movement": "flutter",
+        "read":"コウモリダコ"
     },
     {
         "name": "蓬莱鱛",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "small",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"ホウライエソ"
     },
     {
         "name": "羅鱶",
         "zone": "bathyal",
         "animation": "zoom",
         "size": "large",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"ラブカ"
     },
     {
         "name": "千手海鼠",
         "zone": "abyssal",
         "animation": "zoom",
         "size": "small",
-        "movement": "walk"
+        "movement": "walk",
+        "read":"センジュナマコ"
     },
     {
         "name": "鬼金目",
         "zone": "abyssal",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"オニキンメ"
     },
     {
         "name": "三脚魚",
         "zone": "abyssal",
         "animation": "zoom",
         "size": "medium",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"サンキャクウオ"
     },
     {
         "name": "唐人",
         "zone": "hadal",
         "animation": "zoom",
         "size": "large",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"トウジン"
     },
     {
         "name": "草魚",
         "zone": "hadal",
         "animation": "zoom",
         "size": "large",
-        "movement": "flutter"
+        "movement": "flutter",
+        "read":"クサウオ"
     },
     {
         "name": "海百合",
         "zone": "hadal",
         "animation": "zoom",
         "size": "small",
-        "movement": "walk"
+        "movement": "walk",
+        "read":"ウミユリ"
     },
     {
         "name": "底坊主",
         "zone": "hadal",
         "animation": "zoom",
         "size": "large",
-        "movement": "normal"
+        "movement": "normal",
+        "read":"ソコボウズ"
     }
 ]
