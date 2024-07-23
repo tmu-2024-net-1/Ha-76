@@ -148,11 +148,11 @@ body {
 
 .modal-content {
   background-color: rgba(255,255,255,0.8);
-  margin: 10% auto; /* 中央に配置 */
+  margin: 5% auto; /* 中央に配置 */
   padding: 20px;
   border: none;
   font-family: 'MS Mincho', serif;
-  height:50%;
+  height:60%;
   width: 90%;
   max-width: 800px;
   line-height: 2.0; 
