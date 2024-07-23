@@ -48,7 +48,7 @@ body {
 }
 
 .poem-line {
-  font-size: 32px;
+  font-size: 35px;
   margin: 0;
   padding: 0; /* 余白をリセット */
   line-height: 2; /* 行間を調整 */
@@ -131,4 +131,42 @@ body {
   color: white;
   font-size: 32px;
   animation: bubbleMovement 100s infinite;
+}
+
+.modal {
+  display: none; /* モーダルを初期状態では非表示に */
+  position: fixed; /* 固定位置 */
+  z-index: 1; /* 前面に表示 */
+  left: 0;
+  top: 0;
+  width: 100%; /* 全画面 */
+  height: 100%; /* 全画面 */
+  overflow: auto; /* コンテンツがあふれた場合のスクロール */
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: rgba(255,255,255,0.8);
+  margin: 10% auto; /* 中央に配置 */
+  padding: 20px;
+  border: none;
+  font-family: 'MS Mincho', serif;
+  height:40%;
+  width: 90%;
+  max-width: 800px;
+  line-height: 2.0; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

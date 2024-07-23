@@ -14,6 +14,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.insertBefore(poemContainer, document.getElementById('container'));
 
+  // モーダルの設定
+  const modal = document.getElementById("modal");
+  const span = document.getElementsByClassName("close")[0];
+
+  modal.style.display = "block";
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
   fetch('fish.json')
     .then(response => response.json())
     .then(data => {
