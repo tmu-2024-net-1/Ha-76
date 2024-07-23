@@ -88,6 +88,14 @@
         "read":"アンコウ"
     },
     {
+        "name": "瓔珞海月",
+        "zone": "mesopelagic",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "flutter",
+        "read":"ヨウラククラゲ"
+    },
+    {
         "name": "入道鮖",
         "zone": "bathyal",
         "animation": "zoom",
@@ -102,6 +110,14 @@
         "size": "large",
         "movement": "normal",
         "read":"オソ"
+    },
+    {
+        "name": "大王烏賊",
+        "zone": "bathyal",
+        "animation": "zoom",
+        "size": "large",
+        "movement": "flutter",
+        "read":"ダイオウイカ"
     },
     {
         "name": "具足虫",
@@ -142,6 +158,14 @@
         "size": "small",
         "movement": "walk",
         "read":"センジュナマコ"
+    },
+    {
+        "name": "覆面鼬魚",
+        "zone": "abyssal",
+        "animation": "zoom",
+        "size": "medium",
+        "movement": "slow",
+        "read":"フクメンイタチウオ"
     },
     {
         "name": "鬼金目",
@@ -190,5 +214,14 @@
         "size": "large",
         "movement": "normal",
         "read":"ソコボウズ"
+    },
+    {
+        "name": "磯巾着",
+        "zone": "hadal",
+        "animation": "zoom",
+        "size": "small",
+        "movement": "walk",
+        "read":"イソギンチャク"
     }
+
 ]
