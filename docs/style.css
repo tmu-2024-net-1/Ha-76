@@ -48,7 +48,7 @@ body {
 }
 
 .poem-line {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0;
   padding: 0; /* 余白をリセット */
   line-height: 2; /* 行間を調整 */
