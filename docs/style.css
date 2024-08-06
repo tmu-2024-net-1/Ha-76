@@ -1,16 +1,12 @@
 body {
   background: linear-gradient(to bottom, #a3d7ff, #001f3f) no-repeat;
   background-size: cover;
+  background-color:#a3d7ff;
   color: #000000;
   font-family: 'Noto Serif JP', serif;
   margin: 0;
   overflow-x: hidden;
 }
-
-
-
-
-
 
 
 .zone {
@@ -38,6 +34,7 @@ body {
   left: 0;
   color: white; 
   height: 100vh; /* ビューポートの高さを確保 */
+  width:170vh;
   overflow: hidden; /* はみ出た部分を隠す */
   display: flex;
   flex-direction: column; /* 上から下に並べる */
@@ -177,6 +174,11 @@ body {
 
 .text .read {
   display: none; /* 初期状態では読み方を非表示にする */
+  font-size: 0.45em; /* 読み方のサイズを小さくする */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%; /* 漢字の上に表示 */
 }
 
 

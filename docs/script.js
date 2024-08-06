@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bubbleText.style.top = `${y}px`;
 
             document.body.appendChild(bubbleText);
-          }, i * 200); 
+          }, i * 400); 
         }
       
 
