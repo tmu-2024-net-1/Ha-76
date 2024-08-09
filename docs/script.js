@@ -122,4 +122,4 @@ document.addEventListener("DOMContentLoaded", () => {
       window.scrollTo(0, document.body.scrollHeight);
     })
     .catch(error => console.error('Error loading the JSON data:', error));
-});
+  });
